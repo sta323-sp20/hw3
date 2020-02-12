@@ -1,0 +1,47 @@
+---
+title: "Homework 2"
+author: '[Group name and member names]'
+date: ""
+output: 
+  html_document:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA, 
+                      message = FALSE, warning = FALSE)
+```
+
+## Packages
+
+```{r packages}
+library(tidyverse)
+library(lubridate)
+```
+
+## Data
+
+```{r data}
+sqf <- readRDS("data/sqf_2011.rds")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+## References
+
+1. Publications, Reports - NYPD. (2020). Www1.nyc.gov. Retrieved 12 February 
+   2020, from 
+   https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+
+2. 2018, Y. (2020). Pimp my RMD: a few tips for R Markdown. Holtzy.github.io. 
+   Retrieved 10 February 2020, from https://holtzy.github.io/Pimp-my-rmd/
